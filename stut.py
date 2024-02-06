@@ -37,7 +37,7 @@ btn.click()
 time.sleep(3)
 
 password= driver.find_elements(By.TAG_NAME,"input")[2]
-password.send_keys("13164444Beremiz")
+password.send_keys(password)
 
 time.sleep(3)
 
